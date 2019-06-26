@@ -23,12 +23,12 @@
           <!-- main -->
           <main>
             <?php
-            // On définit la variable date à l'aide de la fonction date.
-            $date = date('d-m-y');
-            // On définit la variable heure à l'aide de la fonction date.
-            $heure = date('H:i');
-            echo 'Nous sommes le ' . $date . ' et il est ' . $heure;
-           ?>
+                // On définit la variable date à l'aide de la fonction date.
+                $date = date('d-m-y');
+                // On définit la variable heure à l'aide de la fonction date.
+                $heure = date('H:i');
+                echo 'Nous sommes le ' . $date . ' et il est ' . $heure;
+            ?>
           </main>
           <!-- footer -->
           <footer>

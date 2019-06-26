@@ -26,8 +26,8 @@
             <?php 
                 /* $days = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
                 $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']; */
-                // setlocale (LC_TIME, "french") ; 
-                $datefr = strftime('%A %d %B %Y à %T') ;
+                setlocale (LC_TIME, 'fr_FR.utf8'); // pour mettre les jours en français
+                $datefr = strftime('%A %d %B %Y à %T');
                 echo 'Aujourd\'hui, nous sommes le ' . $datefr;
             ?>
           </main>

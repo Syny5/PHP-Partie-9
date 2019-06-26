@@ -27,8 +27,8 @@
                 $timesTampPlusTwenty = strtotime('+20 days', $timestamp); // On crée une variable ayant une valeur de 20 jours.
                 $timestampAdded = $timesTampPlusTwenty + $basicTimesTamp // On crée une variable qui prend en compte l'addition des deux timestamp.
             ?>
-            <p><?= 'Timestamp du jour : ' . time(); ?></p>
-            <p><?= 'Timestamp du jour + 20 jours : ' . $timestampAdded; ?></p>
+            <p>Timestamp du jour : <?= time(); ?></p>
+            <p>Timestamp du jour + 20 jours : <?= $timestampAdded; ?></p>
             <p>
                 <?php
                 // On définit la variable date à l'aide de la fonction date.
@@ -36,7 +36,7 @@
                 echo 'Date du jour : ' . $date;
                 ?>
             </p>
-            <p><?= 'Date du jour +20 jours : ' . date('d/m/Y', strtotime($Date. ' + 20 days')); ?></p>
+            <p>Date du jour +20 jours : <?= date('d/m/Y', strtotime($Date. ' + 20 days')); ?></p>
           </main>
           <!-- footer -->
           <footer>

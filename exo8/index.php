@@ -29,7 +29,7 @@
                 echo 'Date du jour : ' . $date;
                 ?>
             </p>
-            <p><?= 'Date du jour +20 jours : ' . date('d/m/Y', strtotime($Date. ' - 22 days')); ?></p>
+            <p><?= 'Date du jour -22 jours : ' . date('d/m/Y', strtotime($Date. ' - 22 days')); ?></p>
           </main>
           <!-- footer -->
           <footer>
